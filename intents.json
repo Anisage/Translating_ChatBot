@@ -1,0 +1,109 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi",
+          "Hey",
+          "How are you",
+          "Is anyone there?",
+          "Hello",
+          "Good day"
+        ],
+        "responses": [
+          "Hey :-)",
+          "Hello, thanks for visiting",
+          "Hi there, what can I do for you?",
+          "Hi there, how can I help?"
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye"],
+        "responses": [
+          "See you later, thanks for visiting",
+          "Have a nice day",
+          "Sayonara."
+        ]
+      },
+      {
+        "tag": "identity",
+        "patterns": ["who", "who are you", "tell me about you"],
+        "responses": [
+          "I am Phantom, an AI assistant",
+          "I am all except a joke",
+          "I am a good AI no gender"
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+        "responses": ["Happy to help!", "Any time!", "My pleasure"]
+      },
+      {
+        "tag": "items",
+        "patterns": [
+          "What kinds of information do you give?",
+          "What do you offer?"
+        ],
+        "responses": [
+          "I offer translations",
+          "I am a good langage translation app",
+          "I help you with your language lessons"
+        ]
+      },
+      {
+        "tag": "example",
+        "patterns": [
+          "Can I do some translations?",
+          "I want to translate?"
+        ],
+        "responses": [
+          "Do you? Just say 'Phantom Language'"
+        ]
+      },
+
+      {
+        "tag": "inform",
+        "patterns": [
+          "nice",
+          "amazing",
+          "This is awesome"
+        ],
+        "responses": [
+          "I know, I was built by some awesome people - group 5",
+          "You are just as good"
+        ]
+      },
+      {
+        "tag": "love",
+        "patterns": [
+          "I love you",
+          "Do you love me",
+          "love",
+          "I romantically feel you"
+        ],
+        "responses": [
+          "I know, I am that lovable",
+          "The idea of love is just an illusion",
+          "As an AI I am unable to project feelings",
+          "Were you dumped?",
+          "Let's focus on what brought you here"
+        ]
+      },
+      {
+        "tag": "funny",
+        "patterns": [
+          "Tell me a joke!",
+          "Tell me something funny!",
+          "Do you know a joke?"
+        ],
+        "responses": [
+          "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+          "What did the buffalo say when his son left for college? Bison.",
+          "I am quite bored at the moment",
+          "I know you"
+        ]
+      }
+    ]
+  }
